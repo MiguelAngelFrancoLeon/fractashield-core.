@@ -9,39 +9,6 @@
 
 ---
 
-## 🌐 ¿Cómo desplegar esta aplicación como una página web pública?
-
-Esta aplicación es una Single-Page Application (SPA) construida en **React + Vite + TypeScript + Tailwind CSS + Three.js**. No requiere bases de datos complejas para funcionar: corre **100% en el navegador del cliente** con la Web Crypto API y WebGL.
-
-Tienes 3 métodos ultrarrápidos y 100% gratuitos para publicarla en internet:
-
-### Opción 1: GitHub Pages (Automático y Gratuito)
-El repositorio ya incluye el archivo `.github/workflows/deploy.yml`:
-1. Sube este código a tu repositorio en GitHub (ej. `github.com/tu-usuario/fractashield-core`).
-2. En GitHub, entra en tu repositorio y haz clic en **Settings** (Configuración) -> **Pages** (en el menú lateral izquierdo).
-3. En la sección **Build and deployment -> Source**, selecciona **GitHub Actions**.
-4. ¡Listo! En menos de 1 minuto, GitHub construirá la web y estará online en:
-   `https://tu-usuario.github.io/fractashield-core/`
-
----
-
-### Opción 2: Vercel (En 30 segundos con Dominio Propio Gratuito)
-1. Entra a [vercel.com](https://vercel.com) e inicia sesión con tu cuenta de GitHub.
-2. Haz clic en **"Add New Project"** e importa tu repositorio `fractashield-core`.
-3. Vercel detectará automáticamente que es un proyecto **Vite**.
-4. Haz clic en **Deploy**.
-5. Obtendrás inmediatamente un enlace activo como `https://fractashield-core.vercel.app` (y puedes conectarle tu propio dominio personalizado como `fractashield.com` gratis).
-
----
-
-### Opción 3: Netlify o Cloudflare Pages
-1. Entra a [netlify.com](https://netlify.com) o Cloudflare Pages.
-2. Conecta tu repositorio de GitHub.
-3. Comando de build: `npm run build`
-4. Directorio de publicación: `dist`
-5. Haz clic en **Deploy Site**.
-
----
 
 ## 💻 Desarrollo Local en tu Máquina
 
