@@ -1,4 +1,4 @@
-# FractaShield-Core (Homenaje a M. Franco León)
+# FractaShield-Core 
 
 > **Criptografía Geométrica Defensiva basada en el Costo Geométrico Fracta-Axis y Símplex Minimal en $\mathbb{R}^3$.**  
 > *Autor & Creador Conceptual: M. Franco León*
