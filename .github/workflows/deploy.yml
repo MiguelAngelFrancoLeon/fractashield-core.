@@ -15,8 +15,8 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install
-      - run: npm run build
+      - run: ci install
+      - run: ci run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
