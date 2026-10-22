@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #050706;
+    color: #d1fae5;
+    font-family: 'JetBrains Mono', monospace;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Cyber Terminal Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090e0b;
+}
+::-webkit-scrollbar-thumb {
+  background: #00ff6633;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff6677;
+}
+
+/* Cyber glow and scanline styles */
+.neon-border-green {
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.15), inset 0 0 15px rgba(0, 255, 102, 0.05);
+}
+
+.neon-border-red {
+  box-shadow: 0 0 20px rgba(255, 34, 68, 0.35), inset 0 0 15px rgba(255, 34, 68, 0.15);
+}
+
+.cyber-grid-bg {
+  background-image: linear-gradient(rgba(0, 255, 102, 0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0, 255, 102, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.cyber-scanline {
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0) 50%,
+    rgba(0, 255, 102, 0.02) 50%,
+    rgba(0, 255, 102, 0.02)
+  );
+  background-size: 100% 4px;
+}
